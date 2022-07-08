@@ -1,0 +1,51 @@
+{
+  "name": "react-flexi-password-checklist",
+  "version": "1.1.0",
+  "description": "A flexible React component that validates user passwords against the custom password requirement checklist, in real-time.",
+  "main": "dist/index",
+  "module": "dist/index.es",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swapnil-gaonkar/react-flexi-password-checklist.git"
+  },
+  "keywords": [
+    "password",
+    "checklist",
+    "validator",
+    "validate",
+    "verify",
+    "react",
+    "form",
+    "check",
+    "signup",
+    "login",
+    "register"
+  ],
+  "author": "Swapnil Gaonkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swapnil-gaonkar/react-flexi-password-checklist/issues"
+  },
+  "homepage": "https://github.com/swapnil-gaonkar/react-flexi-password-checklist#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "postcss": "^8.4.14",
+    "postcss-url": "^10.1.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
